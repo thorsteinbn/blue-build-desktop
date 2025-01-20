@@ -37,6 +37,7 @@ modules:
         - org.mozilla.firefox
         - org.gnome.Loupe
         - com.nextcloud.desktopclient.nextcloud
+        - com.bitwarden.desktop
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
