@@ -36,6 +36,7 @@ modules:
       install:
         - org.mozilla.firefox
         - org.gnome.Loupe
+        - com.nextcloud.desktopclient.nextcloud
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
