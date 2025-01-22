@@ -1,4 +1,4 @@
-# BlueBuild desktop build &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
+# BlueBuild desktop build &nbsp; [![bluebuild](https://github.com/thorsteinbn/blue-build-desktop/actions/workflows/build.yml/badge.svg)](https://github.com/thorsteinbn/blue-build-desktop/actions/workflows/build.yml)
 
 Creating a desktop environment using bluebuild.
 
