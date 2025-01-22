@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: desktop-gnome
 # description will be included in the image's metadata
-description: thorsteinbn desktop image with Gnome.
+description: thorsteinbn work image with Gnome.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
@@ -23,7 +23,6 @@ modules:
       - wireguard-tools
       - virt-manager
       - tailscale
-      - steam-devices
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -38,10 +37,9 @@ modules:
         - org.mozilla.firefox
         - com.vivaldi.Vivaldi
         - org.gnome.Loupe
+        - com.nextcloud.desktopclient.nextcloud
         - com.bitwarden.desktop
         - com.mattermost.Desktop
-        - com.valvesoftware.Steam
-        - com.heroicgameslauncher.hgl
       remove: []
     user: {} # Also add Flathub user repo, but no user packages
 
