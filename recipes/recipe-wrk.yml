@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: desktop-gnome
+name: desktop-gnome-wrk
 # description will be included in the image's metadata
 description: thorsteinbn work image with Gnome.
 
