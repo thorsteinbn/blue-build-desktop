@@ -32,7 +32,7 @@ jobs:
           format: template
           scanners: vuln,secret,misconfig
           template: '@/contrib/sarif.tpl'
-          output: trivy-results.sarif
+          output: trivy-results-${{ matrix.image }}.sarif
           timeout: 30m0s
           skip-dirs: "/sysroot/ostree"
         env:
@@ -41,8 +41,8 @@ jobs:
       - name: Upload Trivy scan results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@4f3212b61783c3c68e8309a0f18a699764811cda # v3.27.1
         with:
-          sarif_file: trivy-results.sarif
+          sarif_file: trivy-results-${{ matrix.image }}.sarif
       - uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
         with:
-          name: Trivy scan SARIF
-          path: trivy-results.sarif
+          name: Trivy scan SARIF ${{ matrix.image }}
+          path: trivy-results-${{ matrix.image }}.sarif
