@@ -2,7 +2,7 @@ name: trivy-scan
 on:
   schedule:
     - cron: "00 8 * * *" # build at 8:00 UTC every day 
-                         # 120 minutes after secureblue images start building
+                         # 120 minutes after bluebuild images start building
   workflow_run:
     workflows: ["bluebuild"]
     types:
