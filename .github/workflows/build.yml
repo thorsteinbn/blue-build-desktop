@@ -27,8 +27,8 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          - recipe.yml
-          - recipe-wrk.yml
+          - desktop-gnome.yml
+          - desktop-gnome-wrk.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
@@ -41,7 +41,3 @@ jobs:
 
           # enabled by default, disable if your image is small and you want faster builds
           maximize_build_space: true
-      # - name: Scan image
-      #   uses: aquasecurity/trivy-action@0.28.0
-      #   with:
-      #     image_ref:
