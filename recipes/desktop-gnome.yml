@@ -44,6 +44,7 @@ modules:
         - com.heroicgameslauncher.hgl
         - com.visualstudio.code
         - org.gnome.Extensions
+        - com.jgraph.drawio.desktop
       remove: []
     user: {} # Also add Flathub user repo, but no user packages
 
