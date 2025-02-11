@@ -44,6 +44,7 @@ modules:
         - com.heroicgameslauncher.hgl
         - com.visualstudio.code
         - com.visualstudio.code.tool.podman
+        - org.gnome.Extensions
       remove: []
     user: {} # Also add Flathub user repo, but no user packages
 
