@@ -41,7 +41,6 @@ modules:
         - com.bitwarden.desktop
         - com.mattermost.Desktop
         - com.visualstudio.code
-        - com.visualstudio.code.tool.podman//stable
         - org.gnome.Extensions
       remove: []
     user: {} # Also add Flathub user repo, but no user packages
