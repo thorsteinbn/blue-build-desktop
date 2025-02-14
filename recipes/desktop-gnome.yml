@@ -46,6 +46,7 @@ modules:
         - org.gnome.Extensions
         - com.jgraph.drawio.desktop
         - com.github.tchx84.Flatseal
+        - com.rustdesk.RustDesk
       remove: []
     user: {} # Also add Flathub user repo, but no user packages
 
