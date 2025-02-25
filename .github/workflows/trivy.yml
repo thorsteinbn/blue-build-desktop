@@ -41,7 +41,7 @@ jobs:
         uses: github/codeql-action/upload-sarif@9e8d0789d4a0fa9ceb6b1738f7e269594bdd67f0 # v3.28.9
         with:
           sarif_file: trivy-results-${{ matrix.image }}.sarif
-      - uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4.6.0
+      - uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
         with:
           name: Trivy scan SARIF ${{ matrix.image }}
           path: trivy-results-${{ matrix.image }}.sarif
