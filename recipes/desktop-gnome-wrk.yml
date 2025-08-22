@@ -23,7 +23,7 @@ modules:
     install:
       - wireguard-tools
       - virt-manager
-      - netbird
+      - netbird-ui
       - pass
       - git
       - tig

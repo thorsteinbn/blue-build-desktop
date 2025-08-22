@@ -23,7 +23,7 @@ modules:
     install:
       - wireguard-tools
       - virt-manager
-      - netbird
+      - netbird-ui
       - steam-devices
     remove:
       # example: removing firefox (in favor of the flatpak)
