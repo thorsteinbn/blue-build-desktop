@@ -18,11 +18,12 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
-    repos: []
+    repos:
+      - netbird.repo
     install:
       - wireguard-tools
       - virt-manager
-      - tailscale
+      - netbird-ui
       - pass
       - git
       - tig
