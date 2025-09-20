@@ -20,6 +20,7 @@ modules:
   - type: rpm-ostree
     repos:
       - netbird.repo
+      - tofuutils-tenv.repo
     install:
       - wireguard-tools
       - virt-manager
@@ -28,6 +29,7 @@ modules:
       - git
       - tig
       - tree
+      - tenv
       - make
       - zsh
     remove:

@@ -20,6 +20,7 @@ modules:
   - type: rpm-ostree
     repos:
       - netbird.repo
+      - tofuutils-tenv.repo
     install:
       - wireguard-tools
       - virt-manager
@@ -28,6 +29,7 @@ modules:
       - zsh
       - make
       - tree
+      - tenv
       - git
     remove:
       # example: removing firefox (in favor of the flatpak)
