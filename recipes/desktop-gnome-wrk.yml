@@ -28,6 +28,7 @@ modules:
       - git
       - tig
       - tree
+      - tenv
       - make
       - zsh
     remove:
