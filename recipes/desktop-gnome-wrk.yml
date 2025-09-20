@@ -20,6 +20,7 @@ modules:
   - type: rpm-ostree
     repos:
       - netbird.repo
+      - tofuutils-tenv.repo
     install:
       - wireguard-tools
       - virt-manager
