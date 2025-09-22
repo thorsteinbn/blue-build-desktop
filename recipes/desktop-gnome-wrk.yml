@@ -27,6 +27,8 @@ modules:
       - netbird-ui
       - pass
       - git
+      - python3
+      - python3-pip
       - tig
       - tree
       - tenv
