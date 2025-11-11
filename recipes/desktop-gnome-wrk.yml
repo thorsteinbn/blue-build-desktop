@@ -24,6 +24,7 @@ modules:
     install:
       - wireguard-tools
       - virt-manager
+      - libvirt-devel
       - netbird-ui
       - pass
       - git
